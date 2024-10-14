@@ -1,0 +1,2 @@
+# shanari-shanari-pokeapi-data-collection
+pokeapiから収集したデータをストレージに保存してDBへ保存する一連のサーバーレスアプリケーション
