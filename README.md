@@ -9,5 +9,4 @@
 - `Cloud Storage`に保存されたファイルを`CloudSQL for Postgres`へ取り込む
 - `CloudSQL for Postgres`のスキーマをコードで管理する
 - 一連のジョブをワークフローとして管理し、冪等性が確保されている
-
-![](./docs/assets/architecture_overview.drawio.svg)
+  - ワークフローツールをいくつか検討したが、コストに見合わないため一旦ローカルでの管理とする
