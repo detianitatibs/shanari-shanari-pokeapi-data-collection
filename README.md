@@ -9,3 +9,5 @@
 - `Cloud Storage`に保存されたファイルを`CloudSQL for Postgres`へ取り込む
 - `CloudSQL for Postgres`のスキーマをコードで管理する
 - 一連のジョブをワークフローとして管理し、冪等性が確保されている
+
+![](./docs/assets/architecture_overview.drawio.svg)
