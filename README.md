@@ -9,5 +9,14 @@
 - `Cloud Storage`に保存されたファイルを`CloudSQL for Postgres`へ取り込む
 - `CloudSQL for Postgres`のスキーマをコードで管理する
 - 一連のジョブをワークフローとして管理し、冪等性が確保されている
+  - ワークフローツールをいくつか検討したが、コストに見合わないため一旦ローカルでの管理とする
 
-![](./docs/assets/architecture_overview.drawio.svg)
+Postgres へロードするときは、`notebook`ディレクトリに以下の要領で`.env`ファイルを作成してください
+
+```
+DB_HOST=<HOST IP>
+DB_USER=<USERNAME>
+DB_PASS=<PASSWORD>
+DB_NAME=<DATABASE NAME>
+DB_PORT=<DATABASE PORT>
+```
