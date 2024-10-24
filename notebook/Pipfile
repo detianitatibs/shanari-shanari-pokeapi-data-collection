@@ -9,6 +9,9 @@ ipykernel = "*"
 pandas = "*"
 numpy = "*"
 google-cloud-storage = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+pg8000 = "*"
 
 [dev-packages]
 
