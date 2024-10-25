@@ -20,3 +20,7 @@ DB_PASS=<PASSWORD>
 DB_NAME=<DATABASE NAME>
 DB_PORT=<DATABASE PORT>
 ```
+
+以下はアーキテクチャの概要図です。
+
+![](./docs/assets/architecture_overview.drawio.svg)
